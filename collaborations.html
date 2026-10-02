@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> eSBiSfaShion </title>
+
+    <link rel="stylesheet" href="esbisfashion.css">
+    <link rel="icon" href="images/logotitle.png" style="border-radius: 50%; background-color: transparent;">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body> 
+    <section class="sub-header"> 
+        <nav> 
+            <a href="esbisfashion.html"> <img src="images/esbisfashionnavlogo.png" height="40px" width="230px"></a>
+            <div class="nav-links" id="navLinks">
+
+                 <!-- close icon -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>    
+                <ul>
+                    <li> <a href="file:///C:/Users/hp/OneDrive/Radna%20povr%C5%A1ina/WEB-projektni%20zadatak/esbisfashion.html">HOME</a> </li>
+                    <li> <a href="file:///C:/Users/hp/OneDrive/Radna%20povr%C5%A1ina/WEB-projektni%20zadatak/about.html">ABOUT</a> </li>
+                    <li> <a href="file:///C:/Users/hp/OneDrive/Radna%20povr%C5%A1ina/WEB-projektni%20zadatak/creations.html">CREATIONS</a> </li>
+                    <li> <a href="file:///C:/Users/hp/OneDrive/Radna%20povr%C5%A1ina/WEB-projektni%20zadatak/illustrations.html">ILLUSTRATIONS</a> </li>
+                    <li> <a href="">COLLABORATIONS</a> </li>
+                    <li> <a href="file:///C:/Users/hp/OneDrive/Radna%20povr%C5%A1ina/WEB-projektni%20zadatak/contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+
+             <!-- menu icon -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> COLLABORATIONS </h1>
+    </section>
+
+
+<!-------------------------------------------------------------Our Collaborations---------------------------------------------------------------->
+<section class="illustrations">
+    <p>Here are some of our collaborations with beloved artists  <i class="fa fa-heart-o"></i> </p>
+    <div class="container">
+        <img src="images/collabI.jpg">
+        <img src="images/collabII.jpg">
+        <img src="images/collabIII.jpg">
+        <img src="images/collabIV.jpg">
+        <img src="images/collabV.jpg">
+    </div>
+
+    <p style="margin-top: 100px;"><b>Through the concept of "service for service", her work becomes a key part of promoting brands and personalities, 
+        creating a unique symbiosis where her art is used to highlight their aesthetics. This form of collaboration functions 
+        as an exchange of value - her digital illustrations and creations serve as a powerful marketing tool for brands and personalities, 
+        while simultaneously gaining recognition and promotion through their platform. This type of cooperation enables it to reach a wider 
+        audience, gain recognition in the industry and achieve long-term partnership relations.</b> </p>
+        <p> <b>Through digital marketing for third parties, 
+        the emphasis is on creating visually attractive content that is at the same time relevant to the brands and personalities with whom 
+        it cooperates. This type of promotion is not only about selling products or services but also about building an image, branding and 
+        creating an emotional connection with the audience.</b></p>
+</section>
+
+
+
+
+
+
+<!-----------------------------------------------------------------Footer------------------------------------------------------------------->
+<section class="footer">
+    <h4> About Us </h4>
+        <p>faShion iS art and you Should be the canvaS</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <a href="https://www.instagram.com/esbisfashion/"> <i class="fa fa-instagram"></i></a>
+            <i class="fa fa-linkedin"></i>
+            <a href="https://www.pinterest.com/esbisfashion/"> <i class="fa fa-pinterest"></i></a>
+            
+            
+        </div>
+        <p> Made with  <i class="fa fa-heart-o"></i> by eSBiSfaShion </p>
+</section>
+
+
+
+<!---------------------------------------------------------------Toggle Menu------------------------------------------------------------------------>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+
+</body>
+
+
+</html>
